@@ -44,7 +44,6 @@ function CretaeRating({ handleAddNewRating }) {
           <Box>
             <InputLabel> User Reating</InputLabel>
             <Rating
-              name="rating"
               value={createObj.rating}
               onChange={(event, newValue) => {
                 setCreateObj({ ...createObj, rating: newValue });
